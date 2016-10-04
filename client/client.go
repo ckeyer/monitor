@@ -1,5 +1,17 @@
 package client
 
+import (
+	"net/http"
+
+	"github.com/ckeyer/monitor/utils"
+)
+
+type SysInfo utils.SysInfo
+
+func Handle(rw http.ResponseWriter, req *http.Request) {
+
+}
+
 // func Cli() {
 // 	exporter := &Exporter{
 // 		errors: prometheus.NewCounterVec(prometheus.CounterOpts{

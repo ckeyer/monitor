@@ -8,8 +8,11 @@ import (
 )
 
 func TestNetwork(t *testing.T) {
-	return
 	ns := NewSysInfo()
+
+	ns.GetCPU()
+	ns.GetFS()
+
 	t.Logf("ip tables: %+v", ns)
 
 	t.Error("...")

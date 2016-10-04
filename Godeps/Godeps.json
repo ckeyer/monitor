@@ -7,6 +7,11 @@
 	],
 	"Deps": [
 		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.10.0-38-g3ec0642",
+			"Rev": "3ec0642a7fb6488f65b06f9040adc67e3990296a"
+		},
+		{
 			"ImportPath": "github.com/beorn7/perks/quantile",
 			"Rev": "4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9"
 		},
@@ -16,8 +21,22 @@
 			"Rev": "c32d31af94b0e9d3b2877e49c1a581ad5a793343"
 		},
 		{
+			"ImportPath": "github.com/codegangsta/inject",
+			"Comment": "v1.0-rc1-10-g33e0aa1",
+			"Rev": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504"
+		},
+		{
+			"ImportPath": "github.com/go-martini/martini",
+			"Comment": "v1.0-186-gfe605b5",
+			"Rev": "fe605b5cd210047ae3bb73d2b69a5b912a9b423d"
+		},
+		{
 			"ImportPath": "github.com/golang/protobuf/proto",
 			"Rev": "87c000235d3d852c1628dc9490cd21ab36a7d69f"
+		},
+		{
+			"ImportPath": "github.com/martini-contrib/cors",
+			"Rev": "553b9208d353a39b0850c02355f478ba020c86d7"
 		},
 		{
 			"ImportPath": "github.com/matttproud/golang_protobuf_extensions/pbutil",
@@ -49,6 +68,15 @@
 		{
 			"ImportPath": "github.com/prometheus/procfs",
 			"Rev": "abf152e5f3e97f2fafac028d2cc06c1feb87ffa5"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "gopkg.in/urfave/cli.v2",
+			"Comment": "v1.18.0-217-gc72728f",
+			"Rev": "c72728f42438425ffcd487986936357e17ebba3f"
 		}
 	]
 }
